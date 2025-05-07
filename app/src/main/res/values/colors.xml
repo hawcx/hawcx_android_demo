@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Replace purple colors with Hawcx blue -->
+    <color name="hawcx_blue">#FF007AFF</color>
+    <color name="hawcx_blue_light">#FF4DA3FF</color>
+    <color name="hawcx_blue_dark">#FF0055B3</color>
+
+    <color name="hawcx_red">#FFFF3B30</color>
+    <color name="hawcx_gray">#FF8E8E93</color>
+    <color name="hawcx_light_gray">#FFE5E5EA</color>
+
+    <!-- Keep standard colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Keep these for backward compatibility, but point to our Hawcx colors -->
+    <color name="purple_200">@color/hawcx_blue_light</color>
+    <color name="purple_500">@color/hawcx_blue</color>
+    <color name="purple_700">@color/hawcx_blue_dark</color>
+    <color name="teal_200">@color/hawcx_blue_light</color>
+    <color name="teal_700">@color/hawcx_blue_dark</color>
+</resources>

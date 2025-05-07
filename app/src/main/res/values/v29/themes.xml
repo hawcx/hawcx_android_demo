@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme for API 29+ (Android 10+) devices -->
+    <style name="Theme.HawcxDemoApp" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="android:colorPrimary">@color/hawcx_blue</item>
+        <item name="android:colorPrimaryDark">@color/hawcx_blue_dark</item>
+        <item name="android:colorAccent">@color/hawcx_blue_light</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/hawcx_blue</item>
+
+        <!-- Force light mode - only available on API 29+ -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>
